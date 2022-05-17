@@ -54,6 +54,13 @@ Features - 25
 **Columns:-** 
 	'ID', 'LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE', 'PAY_0', 'PAY_2', 	'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 	'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 	'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6', 'default payment next month’.
 
+# Problem Statement
+
+* Our task is to build a model that predict the case of customers default payments in Taiwan.
+
+* Conduct quantitative analysis on credit default risk by applying three interpretable machine learning models without utilizing credit score or credit history.
+
+![image](https://user-images.githubusercontent.com/101592102/168750680-54b8da10-2380-4d06-b55d-46b3af66afb8.png)
 
 
 # **Approach Overview**
@@ -78,8 +85,15 @@ Features - 25
 
 * XGBoost Classifier
 
+# **Model Comparision**
+![image](https://user-images.githubusercontent.com/101592102/168751016-51c2fc86-52c4-4f5d-8982-d1ca23bcb3b1.png)
+
+![image](https://user-images.githubusercontent.com/101592102/168751088-80367cf5-b8aa-42f9-9141-540244f30253.png)
+
+
 # **Conclusion**
 
+Machine learning methods, in conjunction with the use of imbalanced methods, have been utilized in various domains. The objective of this paper is to train various supervised learning algorithms to predict the client’s behavior in paying off the credit card balance. In classification problems, an imbalanced dataset is also crucial to enhance the performance of the model, so different resampling techniques were also used to balance the dataset. We first investigated the datasets by using exploratory data analysis techniques, including data normalization. However, all the models implemented achieved comparable results in terms of accuracy.
 * After performing the various model we the get the best accuracy form the Random forest and XGBoost classifier.
 
 * Logestic Regression is the least accurate as compared to other models performed.
